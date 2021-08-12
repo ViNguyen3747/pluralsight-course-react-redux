@@ -61,7 +61,7 @@ CourseForm.propTypes = {
   errors: PropTypes.object,
   onSave: PropTypes.func.isRequired,
   onChange: PropTypes.func.isRequired,
-  saving: PropTypes.bool,
+  save: PropTypes.bool,
 };
 
 export default CourseForm;
