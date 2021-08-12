@@ -8,7 +8,7 @@ const CourseForm = ({
   authors,
   onSave,
   onChange,
-  saving = false,
+  save = false,
   errors = {},
 }) => {
   return (
@@ -48,8 +48,8 @@ const CourseForm = ({
         error={errors.category}
       />
 
-      <button type="submit" disabled={saving} className="btn btn-primary">
-        {saving ? "Saving..." : "Save"}
+      <button type="submit" disabled={save} className="btn btn-primary">
+        {save ? "Saving..." : "Save"}
       </button>
     </form>
   );
